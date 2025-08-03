@@ -4,69 +4,52 @@
   <meta charset="UTF-8">
   <title>Programming Languages Overview</title>
   <style>
-    body 
-    {
+    body {
       font-family: Arial, sans-serif;
       background-color: #f0f8ff;
       margin: 0;
       padding: 0;
     }
-    header 
-    {
+    header {
       background-color: #000000;
       color: white;
       padding: 20px;
       text-align: center;
     }
-    nav 
-    {
-      background-color:beige;
+    nav {
+      background-color: beige;
       padding: 10px;
       text-align: center;
     }
-    nav a 
-    {
+    nav a {
       margin: 0 15px;
       text-decoration: none;
       color: #333;
       font-weight: bold;
     }
-    main 
-    {
+    main {
       padding: 20px;
     }
-    section 
-    {
+    section {
       margin-bottom: 30px;
     }
-    h2 
-    {
+    h2 {
       color: #4c00ff;
     }
-    img 
-    {
-      max-width: 100%;
-      height: auto;
-      border-radius: 8px;
-    }
-    table 
-    {
+    table {
       width: 100%;
       border-collapse: collapse;
       margin-top: 10px;
     }
-    th,td 
-    {
+    th, td {
       border: 1px solid #ccc;
       padding: 10px;
       text-align: left;
     }
-    th 
-    {
-      background-color:beige;
+    th {
+      background-color: beige;
     }
-    footer 
-    {
+    footer {
       background-color: #000000;
       color: white;
       text-align: center;
@@ -82,11 +65,13 @@
     <h1>Programming Languages Overview</h1>
     <p>Explore the differences between C++ and Java</p>
   </header>
+
   <nav>
     <a href="#cpp">C++</a>
     <a href="#java">Java</a>
     <a href="#comparison">Comparison Table</a>
   </nav>
+
   <main>
     <section id="cpp">
       <h2>C++</h2>
@@ -96,8 +81,12 @@
         <li>Manual memory management</li>
         <li>Compiled to machine code</li>
       </ul>
-      <img src="img/c++.png" alt="C++ Logo">
+      <figure>
+        <img src="img/c++.png" alt="C++ Logo" width="250">
+        <figcaption>C++ Logo</figcaption>
+      </figure>
     </section>
+
     <section id="java">
       <h2>Java</h2>
       <p>Java is a platform-independent, object-oriented language widely used for web applications, Android development, and enterprise systems.</p>
@@ -106,8 +95,12 @@
         <li>Runs on JVM</li>
         <li>Does not support pointers</li>
       </ul>
-      <img src="img/java.svg" alt="Java Logo">
+      <figure>
+        <img src="img/java.svg" alt="Java Logo">
+        <figcaption>Java Logo</figcaption>
+      </figure>
     </section>
+
     <section id="comparison">
       <h2>C++ vs Java Comparison</h2>
       <table>
@@ -138,9 +131,27 @@
         </tr>
       </table>
     </section>
+
+    <section id="video">
+      <figure>
+        <video autoplay muted controls>
+          <source src="vid/c++_video.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+        <figcaption>C++ Introduction Video</figcaption>
+      </figure>
+      <figure>
+        <video autoplay muted controls>
+          <source src="vid/java_video.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+        <figcaption>Java Introduction Video</figcaption>
+      </figure>
+    </section>
   </main>
+
   <footer>
-    <p>&copy; 2025 Nishad Patil </a></p>
+    <p>&copy; 2025 Nishad Patil</p>
   </footer>
 </body>
 </html>
