@@ -30,6 +30,11 @@ html
       color: #333;
       font-weight: bold;
     }
+    nav :hover
+    {
+      background-color: rgb(255, 67, 67);
+      text-decoration: underline;
+    }
     main 
     {
       padding: 25px;
@@ -62,6 +67,10 @@ html
     th 
     {
       background-color: rgb(255, 123, 123);
+    }
+    tr:hover 
+    {
+      background-color: #adff72;
     }
     figure 
     {
